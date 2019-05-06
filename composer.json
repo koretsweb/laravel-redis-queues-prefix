@@ -1,0 +1,15 @@
+{
+    "name": "airslate/laravel-redis-queues-prefix",
+    "description": "This tiny library has been designed to allow you to specify redis queues prefix for all jobs, in one place as a config parameter",
+    "authors": [
+        {
+            "name": "Dima Korets",
+            "email": "korets.dmytro@pdffiller.team"
+        }
+    ],
+    "require": {
+        "illuminate/queue": "5.*.*",
+        "illuminate/contracts": "5.*.*",
+        "illuminate/support": "5.*.*"
+    }
+}
