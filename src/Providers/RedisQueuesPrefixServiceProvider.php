@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Airslate\RedisWrapper\Providers;
+namespace AirSlate\RedisWrapper\Providers;
 
 use Airslate\RedisWrapper\RedisWrapperConnector;
 use Illuminate\Queue\QueueManager;
