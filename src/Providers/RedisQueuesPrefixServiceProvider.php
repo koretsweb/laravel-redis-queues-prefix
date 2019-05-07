@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace AirSlate\RedisWrapper\Providers;
 
-use Airslate\RedisWrapper\RedisWrapperConnector;
+use AirSlate\RedisWrapper\RedisWrapperConnector;
 use Illuminate\Queue\QueueManager;
 use Illuminate\Support\ServiceProvider;
 
