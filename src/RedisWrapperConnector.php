@@ -10,11 +10,15 @@ class RedisWrapperConnector extends RedisConnector
     /**
      * Establish a queue connection.
      *
-     * @param  array  $config
+     * @param  array  $wrapperConfig
      * @return \Illuminate\Contracts\Queue\Queue
      */
-    public function connect(array $config)
+    public function connect(array $wrapperConfig)
     {
+        $originalConfig = config('queue.connections.redis');
+
+        $config = array_merge($originalConfig, $wrapperConfig);
+
         $queue = new RedisWrapperQueue(
             $this->redis,
             $config['queue'],
