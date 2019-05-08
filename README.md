@@ -10,12 +10,12 @@ Installation:
    ...
    {
       "type": "vcs",
-      "url": "git@github.com:airslateinc/laravel-redis-queues-prefix.git"
+      "url": "git@github.com:koretsweb/laravel-redis-queues-prefix.git"
    }
  ],
 ```
 
-2) `composer require airslate/laravel-redis-queues-prefix`
+2) `composer require koretsweb/laravel-redis-queues-prefix`
 
 3) Change queue driver env var in your `.env`/`env.ctmpl` from `redis` to `redis_wrapper`
 
